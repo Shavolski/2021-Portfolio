@@ -16,6 +16,11 @@ export const useStyles = makeStyles((theme) => ({
   headerText: {
     paddingTop: "1vh",
   },
+  resumeLink: {
+    color: "white",
+    borderBottom :"1px solid white",
+    textDecoration:"none",
+  },
   pi: {
     width: "100%",
   },

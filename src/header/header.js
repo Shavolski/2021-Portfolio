@@ -4,6 +4,7 @@ import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import ProfileImage from "../images/vectorMe.png";
+import Resume from "../resume/Steve_Marvins_Resume.pdf";
 import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 import { AnimateSharedLayout, motion } from "framer-motion";
 import { useStyles } from "./headerStyles";
@@ -49,7 +50,7 @@ const Header = () => {
                 gutterBottom
                 className={classes.headerText}
               >
-                Currently working at Big Nerd Ranch as a web intern.
+              <a href={Resume} download="Steve Marvins Resume" className={classes.resumeLink} >Download the resume right here.</a>
               </Typography>
             </Grid>
           </Grid>
