@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.css","webpack://src/index.css"],"names":[],"mappings":"AAAA,UAEE,6BAA+B,CCA/B,QAAW,CACX,qBAAuB,CACvB,WDDF","file":"main.ada89516.chunk.css","sourcesContent":["html,\nbody {\n  font-family: \"Abel\", sans-serif;\n}\n","html,\nbody {\n  margin: 0px;\n  background-color: black;\n  height: 100%;\n}\n"]}
