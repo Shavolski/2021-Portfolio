@@ -75,31 +75,84 @@ const Work = () => {
               className={classes.tabs}
             >
               <Tab
-                label="BIG NERD RANCH"
+                label="DIYSE"
                 {...a11yProps(0)}
                 className={classes.individualTab}
               />
               <Tab
-                label="NYOTA PR"
+                label="BIG NERD RANCH"
                 {...a11yProps(1)}
                 className={classes.individualTab}
               />
               <Tab
-                label="MERCY SAFE HAVEN"
+                label="NYOTA PR"
                 {...a11yProps(2)}
                 className={classes.individualTab}
               />
               <Tab
-                label="PROTOVO SOLUTIONS"
+                label="MERCY SAFE HAVEN"
                 {...a11yProps(3)}
+                className={classes.individualTab}
+              />
+              <Tab
+                label="PROTOVO SOLUTIONS"
+                {...a11yProps(4)}
                 className={classes.individualTab}
               />
             </Tabs>
           </Grid>
           <Grid item xs={12} md={10}>
+
+          <TabPanel
+            value={value}
+            index={0}
+            className={classes.individualTabPanel}
+          >
+            <Typography variant="h4" gutterBottom>
+              <span className={classes.titleText}>React Developer </span>
+              <span className={classes.titleAt}>@</span>
+              <span className={classes.titleCompany}> DIYSE</span>
+            </Typography>
+            <Typography
+              variant="h6"
+              gutterBottom
+              className={classes.periodText}
+            >
+              OCTOBER 2021 - FEBRUARY 2022
+            </Typography>
+            <Grid container spacing={1}>
+              <Grid item>
+                <NavigateNextIcon />
+              </Grid>
+              <Grid item xs={10}>
+                <Typography
+                  variant="h6"
+                  gutterBottom
+                  className={classes.headerText}
+                >
+                  Built and tested the app's frontend infrastructure that received positive and affirmative responses from beta testers and the founders.
+                </Typography>
+              </Grid>
+            </Grid>
+            <Grid container spacing={1}>
+              <Grid item>
+                <NavigateNextIcon />
+              </Grid>
+              <Grid item xs={10}>
+                <Typography
+                  variant="h6"
+                  gutterBottom
+                  className={classes.headerText}
+                >
+                Collaborated with the designer and CTO in peer review sessions regarding the app's progress and improved the overall quality of the codebase.
+                </Typography>
+              </Grid>
+            </Grid>
+          </TabPanel>
+
             <TabPanel
               value={value}
-              index={0}
+              index={1}
               className={classes.individualTabPanel}
             >
               <Typography variant="h4" gutterBottom>
@@ -164,7 +217,7 @@ const Work = () => {
             </TabPanel>
             <TabPanel
               value={value}
-              index={1}
+              index={2}
               className={classes.individualTabPanel}
             >
               <Typography variant="h4" gutterBottom>
@@ -217,7 +270,7 @@ const Work = () => {
             </TabPanel>
             <TabPanel
               value={value}
-              index={2}
+              index={3}
               className={classes.individualTabPanel}
             >
               <Typography variant="h4" gutterBottom>
@@ -269,7 +322,7 @@ const Work = () => {
             </TabPanel>
             <TabPanel
               value={value}
-              index={3}
+              index={4}
               className={classes.individualTabPanel}
             >
               <Typography variant="h4" gutterBottom>

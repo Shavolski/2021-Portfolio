@@ -171,7 +171,7 @@ const Contact = () => {
           Designed and developed by Steve Marvins.
         </Typography>
         <Typography variant="caption" gutterBottom display="block">
-          All rights reserved © 2021
+          All rights reserved © 2022
         </Typography>
       </Box>
     </Container>
